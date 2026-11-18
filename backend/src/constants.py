@@ -9,3 +9,7 @@ LINE_STATES=('idle','busy')
 PERMIT_STATES=('planned','permitted','in_use','completed')
 WINDOW_STATES=('planned','confirmed','in_use','completed')
 RETEST_STATES=('commissioned','reported','closed')
+
+SUPPLY_STATES=('supplying','halted','terminated')
+SUPPLY_SAMPLE_STATES=('queued','qualified','anomaly','failed')
+SUPPLY_SAMPLE_KINDS=('outlet','resample')
